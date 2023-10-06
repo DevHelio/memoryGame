@@ -11,20 +11,25 @@ body game {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 50px;
-  width: 70%;
+  width: 90%;
   height: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 body game cardBoard {
-  position: inherit;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 body game cardBoard .resetButton {
-  width: 100%;
+  width: 90%;
   height: 80px;
   margin-top: 50px;
   background-color: rgb(80, 217, 80);
@@ -48,8 +53,9 @@ body game cardBoard cards .clicked {
 }
 body game cardBoard cards button {
   background-color: rgb(230, 230, 230);
-  width: 90px;
-  height: 90px;
+  width: -moz-fit-content;
+  width: fit-content;
+  aspect-ratio: 1/1;
   margin: 5px;
   border-color: black;
   border-width: 5px;
@@ -63,7 +69,7 @@ body game cardBoard cards button h1 {
   color: #000;
   text-align: center;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.49);
-  font-size: 50px;
+  font-size: xx-large;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
