@@ -111,4 +111,4 @@ const newGame = () => {
     cardSetup(4);
 }
 
-cardSetup(4);
+cardSetup(5);
