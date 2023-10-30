@@ -108,7 +108,7 @@ const newGame = () => {
         br.remove();
     }
 
-    cardSetup(3);
+    cardSetup(4);
 }
 
-cardSetup(3);
+cardSetup(4);
